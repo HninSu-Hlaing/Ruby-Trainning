@@ -12,6 +12,7 @@ for i in 0..heigth
 	end
 	puts
 end
+
 for i in (heigth - 1).downto(0)
 	for j in (width + 1).downto(0)
 		if j >= heigth - i && j <= heigth + i
