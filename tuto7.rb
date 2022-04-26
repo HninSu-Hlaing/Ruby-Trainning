@@ -1,11 +1,15 @@
 class Person
+    @name
     def print_name(name)
-        puts "#{name}"
+        @name = name
+        puts "#{@name}"
     end
 end
 class Student < Person
+    @roll_number
     def print_roll(roll_number)
-        puts "#{roll_number}"
+        @roll_number = roll_number
+        puts "#{@roll_number}"
     end
 end
 
